@@ -1,0 +1,9 @@
+{
+  "roc_auc": 0.821,
+  "f1": 0.6006,
+  "precision": 0.4734,
+  "recall": 0.8075,
+  "cv_mean": 0.924,
+  "cv_std": 0.0043,
+  "threshold": 0.47
+}

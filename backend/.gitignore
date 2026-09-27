@@ -1,0 +1,82 @@
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ── Virtual environments ──────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env.local
+
+# ── Environment variables ─────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── ML artifacts (too large for git) ─────────────────────────
+ml/model/pipeline.pkl
+ml/model/shap_explainer.pkl
+ml/mlruns/
+ml/data/raw.csv
+ml/data/X_train.csv
+ml/data/X_test.csv
+ml/data/y_train.csv
+ml/data/y_test.csv
+
+# Keep these — needed by backend at runtime
+!ml/model/feature_names.json
+!ml/model/shap_importance.json
+!ml/model/metrics.json
+!ml/model/threshold.json
+!ml/data/churn_cleaned.csv
+
+# ── Database ──────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Next.js ───────────────────────────────────────────────────
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+frontend/.npm
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnp
+frontend/.pnp.js
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+logs/

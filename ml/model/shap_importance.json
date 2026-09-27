@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "Contract_Two year",
+    "importance": 0.6932258605957031
+  },
+  {
+    "feature": "MonthlyCharges",
+    "importance": 0.6425384879112244
+  },
+  {
+    "feature": "num_services",
+    "importance": 0.471885621547699
+  },
+  {
+    "feature": "tenure",
+    "importance": 0.445113867521286
+  },
+  {
+    "feature": "OnlineSecurity_Yes",
+    "importance": 0.39586183428764343
+  },
+  {
+    "feature": "Contract_One year",
+    "importance": 0.3813658356666565
+  },
+  {
+    "feature": "TechSupport_Yes",
+    "importance": 0.3809492290019989
+  },
+  {
+    "feature": "OnlineBackup_Yes",
+    "importance": 0.31449732184410095
+  },
+  {
+    "feature": "PaymentMethod_Mailed check",
+    "importance": 0.24366582930088043
+  },
+  {
+    "feature": "avg_spend_ratio",
+    "importance": 0.2433525025844574
+  },
+  {
+    "feature": "DeviceProtection_Yes",
+    "importance": 0.23584389686584473
+  },
+  {
+    "feature": "PaymentMethod_Credit card (automatic)",
+    "importance": 0.21842055022716522
+  },
+  {
+    "feature": "PhoneService",
+    "importance": 0.20948247611522675
+  },
+  {
+    "feature": "Dependents",
+    "importance": 0.1892814040184021
+  },
+  {
+    "feature": "InternetService_No",
+    "importance": 0.1750403195619583
+  }
+]
